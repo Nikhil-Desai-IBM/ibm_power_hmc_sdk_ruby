@@ -66,7 +66,8 @@ module IbmPowerHmc
       :vtpm_lpars => "AssociatedSystemSecurity/AvailableVirtualTrustedPlatformModulePartitions",
       :is_classic_hmc_mgmt => "IsClassicHMCManagement",
       :is_hmc_mgmt_master => "IsHMCPowerVMManagementMaster",
-      :is_mem_mirroring_enabled => "AssociatedSystemMemoryConfiguration/CurrentMemoryMirroringMode"
+      :is_mem_mirroring_enabled => "AssociatedSystemMemoryConfiguration/CurrentMemoryMirroringMode",
+      :memory_region_size => "AssociatedSystemMemoryConfiguration/MemoryRegionSize"
     }.freeze
 
     def group_uuids
